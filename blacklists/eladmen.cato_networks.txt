@@ -1,6 +1,6 @@
 # source: https://go.catonetworks.com/rs/245-RJK-441/images/miningpools-feed-by-Cato-Networks.txt
 # 
-# pulled: 2021-02-18 13:48:08.785761
+# pulled: 2021-02-18 14:38:46.867816
 # original file starts below the ### line
 #
 ################################################################################

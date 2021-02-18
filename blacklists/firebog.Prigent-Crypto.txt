@@ -1,6 +1,6 @@
 # source: https://v.firebog.net/hosts/Prigent-Crypto.txt
 # 
-# pulled: 2021-02-18 13:48:03.431062
+# pulled: 2021-02-18 14:38:45.896029
 # original file starts below the ### line
 #
 ################################################################################
