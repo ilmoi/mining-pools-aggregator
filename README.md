@@ -4,18 +4,22 @@
 Simple tool that aggregates all the crypto mining pool lists I was able to find online. Includes both domains and IPs.
 
 Outputs:
-- Aggregate top level domains list (`lists/tlds.txt`)
-- Aggregate domains with subdomains list (`lists/urls.txt`)
-- Aggregate IPs list (`lists/ips.txt`)
-- Aggregate Hosts file (`hosts/hosts`)
+- Aggregate top level domains list (`lists/tlds.txt`) ~10k lines
+- Aggregate domains with subdomains list (`lists/urls.txt`) ~130k lines
+- Aggregate IPs list (`lists/ips.txt`) ~10k lines
+- Aggregate Hosts file (`hosts/hosts`) ~140k lines
  
 ## Installation
 
-`pip install pipenv` if you don't have it already.
+1. Make sure you have python `3.x` on your system.
+2. `pip install pipenv` if you don't have it already.
+3. `cd` into the dir and run `pipenv install`.
  
 ## Usage
 
 *TL;DR;* 
+
+You can use the files in `hosts` and `lists` folder
 
 To refresh sources and re-aggregate lists `cd` into the project folder and run `./refresh.sh`. Give it some time (around 20min on 2018 MacBook Pro.)
 
