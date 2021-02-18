@@ -1,0 +1,47 @@
+# Crypto mining pools aggregator (domains + IPs)
+
+## Description
+Simple tool that aggregates all the crypto mining pool lists I was able to find online. Includes both domains and IPs.
+
+Outputs:
+- Aggregate top level domains list (`lists/tlds.txt`)
+- Aggregate domains with subdomains list (`lists/urls.txt`)
+- Aggregate IPs list (`lists/ips.txt`)
+- Aggregate Hosts file (`hosts/hosts`)
+ 
+## Installation
+
+`pip install pipenv` if you don't have it already.
+ 
+## Usage
+
+*TL;DR;* 
+
+To refresh sources and re-aggregate lists `cd` into the project folder and run `./refresh.sh`. Give it some time (around 20min on 2018 MacBook Pro.)
+
+*Under the hood*
+
+`pipenv run python generate_lists.py` aggregates all files in blacklists folder into one, subtracts anything from whitelists folder, deduplicates, orders alphabetically. Output saved in `lists` folder.
+
+`pipenv run python generate_ips_from_lists.py` uses the files generated in previous steps and attempts to find IP addresses for each of the urls in those files. Output saved back into `blacklists` folder under names `ips_from_tlds` and `ips_from_urls`.
+
+`pipenv run python generate_hosts.py` aggregates `tlds` and `urls` into a single `hosts` file with `0.0.0.0` prefixed on each line.
+
+`helpers.py` is where most of the logic lives. Functions are commented and should be self-explanatory.
+
+There's a few lists that I found but that didn't make the cut saved into `excluded` dir. Mainly because of formatting issues.
+
+## How to extend?
+
+- Add urls to blacklist into `blacklists/CUSTOM_blacklist.txt`
+- Add urls to whitelist into `whitelists/CUSTOM_whitelist.txt`
+- To add new sources, create a file in either `blacklists` or `whitelists` folder then either paste your list directly, or if you're pulling from a url paste the url onto the first line. Python will do the rest to pull the contents and populate the file. Be sure to post the raw link (ie without html) - see current files for inspiration.  
+
+ 
+## Credits
+
+All the credit goes to the folk who put together the original lists. This is merely an aggregator.
+
+## Contributions
+
+Welcome. Just issue a PR.

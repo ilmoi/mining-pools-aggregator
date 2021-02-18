@@ -1,0 +1,3 @@
+# https://raw.githubusercontent.com/xd4rker/MinerBlock/master/assets/filters.txt
+# the syntax is too weird and even if you clean the slashes / stars it produces messed up output
+# eg we'd end up blocking absolutely all .wasm domains

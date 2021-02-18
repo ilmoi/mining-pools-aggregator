@@ -1,0 +1,2 @@
+# https://github.com/fhstp/CoinEater/blob/master/src/blacklist.txt
+# the syntax is too weird and even if you clean the slashes / stars it produces messed up output
