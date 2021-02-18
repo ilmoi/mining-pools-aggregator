@@ -22,7 +22,7 @@ def generate_lists():
         f.write("\n".join(final_urls))
     with open("lists/ips.txt", "w") as f:
         f.write("\n".join(final_ips))
-    print(f'> DONE. Output contains {len(final_tlds)} TLDs, '
+    print(f'> DONE. Lists generated and contain {len(final_tlds)} TLDs, '
           f'{len(final_urls)} URLs and {len(final_ips)} IPs.')
 
 

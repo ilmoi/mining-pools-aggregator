@@ -18,7 +18,7 @@ def generate_hosts():
         f.write("0.0.0.0 ")
         f.write("\n0.0.0.0 ".join(final_tlds))
         f.write("\n0.0.0.0 ".join(final_urls))
-    print(f'> DONE. Hosts file contains {len(final_tlds) + len(final_urls)} items.')
+    print(f'> DONE. Hosts file generated and contains {len(final_tlds) + len(final_urls)} items.')
 
 if __name__ == '__main__':
     generate_hosts()

@@ -1,6 +1,6 @@
 # source: https://gitlab.com/ZeroDot1/CoinBlockerLists/-/raw/master/list.txt
 # full repo: https://gitlab.com/ZeroDot1/CoinBlockerLists
-# pulled: 2021-02-18 14:38:47.299742
+# pulled: 2021-02-18 15:39:03.289608
 # original file starts below the ### line
 #
 ################################################################################
