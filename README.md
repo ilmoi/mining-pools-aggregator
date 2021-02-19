@@ -7,6 +7,7 @@ Outputs:
 - Aggregate top level domains list (`lists/tlds.txt`) ~10k lines
 - Aggregate domains with subdomains list (`lists/urls.txt`) ~130k lines
 - Aggregate IPs list (`lists/ips.txt`) ~10k lines
+- Aggregate CIDRs list (`lists/cidrs.txt`) ~10k lines
 - Aggregate Hosts file (`hosts/hosts`) ~140k lines
  
 ## Installation

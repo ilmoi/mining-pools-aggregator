@@ -1,6 +1,6 @@
 # source: https://gitlab.com/ZeroDot1/CoinBlockerLists/-/raw/master/list_optional.txt
 # full repo: https://gitlab.com/ZeroDot1/CoinBlockerLists
-# pulled: 2021-02-18 15:39:03.112263
+# pulled: 2021-02-19 14:17:42.430599
 # original file starts below the ### line
 #
 ################################################################################

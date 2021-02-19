@@ -1,6 +1,6 @@
 # source: https://raw.githubusercontent.com/andoniaf/mining-pools-list/master/mining-pools_IP.lst
 # full repo: https://github.com/andoniaf/mining-pools-list
-# pulled: 2021-02-18 15:39:06.658229
+# pulled: 2021-02-19 14:17:47.863056
 # original file starts below the ### line
 #
 ################################################################################

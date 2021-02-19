@@ -118,7 +118,8 @@ def process_file(filename):
             # remove IPs
             try:
                 IP(line)  # if doesn't error, then indeed an IP
-                ips.append(line)
+                if line.count('.') == 3: #some ips weirdly don't have enough dots
+                    ips.append(line)
             except ValueError:
                 # extract tld
                 tld = extract_tld(line)
