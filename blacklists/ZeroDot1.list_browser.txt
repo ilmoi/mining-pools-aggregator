@@ -1,6 +1,6 @@
 # source: https://gitlab.com/ZeroDot1/CoinBlockerLists/-/raw/master/list_browser.txt
 # full repo: https://gitlab.com/ZeroDot1/CoinBlockerLists
-# pulled: 2021-02-19 14:17:46.822986
+# pulled: 2021-02-21 12:40:25.223128
 # original file starts below the ### line
 #
 ################################################################################

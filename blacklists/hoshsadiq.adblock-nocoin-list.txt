@@ -1,6 +1,6 @@
 # source: https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt
 # full repo: https://github.com/hoshsadiq/adblock-nocoin-list
-# pulled: 2021-02-19 14:17:47.180999
+# pulled: 2021-02-21 12:40:25.593827
 # original file starts below the ### line
 #
 ################################################################################

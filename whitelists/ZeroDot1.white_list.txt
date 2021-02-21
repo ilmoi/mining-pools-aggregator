@@ -1,6 +1,6 @@
 # source: https://gitlab.com/ZeroDot1/CoinBlockerLists/-/raw/master/white_list.txt
 # full repo: https://gitlab.com/ZeroDot1/CoinBlockerLists
-# pulled: 2021-02-19 14:17:49.160506
+# pulled: 2021-02-21 12:40:28.640930
 # original file starts below the ### line
 #
 ################################################################################

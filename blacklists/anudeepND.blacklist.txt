@@ -1,6 +1,6 @@
 # source: https://raw.githubusercontent.com/anudeepND/blacklist/master/CoinMiner.txt
 # full repo: https://github.com/anudeepND/blacklist
-# pulled: 2021-02-19 14:17:47.399005
+# pulled: 2021-02-21 12:40:26.137336
 # original file starts below the ### line
 #
 ################################################################################
